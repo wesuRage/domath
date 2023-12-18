@@ -16,7 +16,7 @@ export const Topheader = styled.header`
     display: inline-block;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 550px) {
     width: calc(100vw - 30px);
   }
 `;

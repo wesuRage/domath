@@ -1,0 +1,30 @@
+import styled from "styled-components";
+
+export const Topheader = styled.header`
+  width: 300px;
+  max-height: 66px;
+  background-color: black;
+  color: white;
+
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+
+  border-bottom: solid 1px var(--red);
+
+  p {
+    display: inline-block;
+  }
+
+  @media screen and (max-width: 400px) {
+    width: calc(100vw - 30px);
+  }
+`;
+
+export const H1 = styled.h1`
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 0;
+  margin: 0;
+  margin-left: 20px;
+`;

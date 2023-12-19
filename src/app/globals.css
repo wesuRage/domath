@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@100&family=Rethink+Sans&display=swap");
 
 :root {
-  --red: rgb(236, 47, 47);
+  --red: rgb(235, 45, 45);
+  /* --red: rgb(45, 124, 235); */
 
   ::-moz-selection {
     color: black;
@@ -46,4 +47,10 @@ body {
 
   font-family: "Nunito", sans-serif;
   font-family: "Rethink Sans", sans-serif;
+}
+
+br {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

@@ -1,15 +1,15 @@
 "use client";
 
-import Anchor from "@/components/Anchor/Anchor";
-import List from "@/components/List/List";
+import InlineAnchor from "@/components/Text/Anchor/InlineAnchor/InlineAnchor";
+import List from "@/components/Text/List/List";
 import Main from "@/components/Main/Main";
 import MathBlock from "@/components/Math/Block/Block";
 import MathInline from "@/components/Math/Inline/Inline";
-import Paragraph from "@/components/Paragraph/Paragraph";
+import Paragraph from "@/components/Text/Paragraph/Paragraph";
 import Sidebar from "@/components/Sidebar/Sidebar";
-import Title from "@/components/Title/Title";
-import Topic from "@/components/Topic/Topic";
-import Underline from "@/components/Underline/Underline";
+import Title from "@/components/Text/Title/Title";
+import Topic from "@/components/Text/Topic/Topic";
+import Underline from "@/components/Text/Underline/Underline";
 import { Wrapper } from "@/components/Wrapper/Wrapper";
 
 export default function AdicaoESubtracao() {
@@ -35,14 +35,14 @@ export default function AdicaoESubtracao() {
           <Underline>centenas</Underline>... E só após então, podemos começar a
           somar unidade com unidade, dezena com dezena, e assim vai. Para um
           melhor exemplo, clique e assista um clipe da{" "}
-          <Anchor
+          <InlineAnchor
             newTab
-            MarginOff
-            RedOn
+            marginoff
+            redon
             href="https://youtube.com/clip/UgkxNrHjAUfkjbGTCQBcqdJR2ZYU2yZfXZJy?si=KWGyDYEdxqmx24qS"
           >
             aula do Professor Ferreto
-          </Anchor>
+          </InlineAnchor>
           .
         </Paragraph>
         <br />
@@ -53,22 +53,20 @@ export default function AdicaoESubtracao() {
           ), para armarmos a conta, colocamos virgula embaixo de virgula{" "}
           <Underline>tanto em adição quando em subtração</Underline>. Para um
           melhor exemplo, clique e assista um clipe da{" "}
-          <Anchor
+          <InlineAnchor
             newTab
-            MarginOff
-            RedOn
+            marginoff
+            redon
             href="https://youtube.com/clip/UgkxuVIJ5n-WKU8uBdRJDiypRnIgbgR795Da?si=YEsSV5dbkC3khkj9"
           >
             aula do Professor Ferreto
-          </Anchor>
+          </InlineAnchor>
           .
         </Paragraph>
 
         <Topic>Propriedades</Topic>
         <List index={1}>Elemento nêutro</List>
-        <Paragraph>
-          Qualquer número somado à zero continuna sendo o mesmo número.
-        </Paragraph>
+        <Paragraph>Somar zero não altera o resultado.</Paragraph>
         <MathBlock math="a + 0 = a\quad |\quad 3 + 0 = 3" />
 
         <List index={2}>Comutatividade</List>
@@ -114,23 +112,20 @@ export default function AdicaoESubtracao() {
           <Underline>emprestar</Underline> uma dezena do número ao lado, aí
           então sim realizar a subtração. Para um melhor exemplo, clique e
           assista um clipe da{" "}
-          <Anchor
+          <InlineAnchor
             newTab
-            MarginOff
-            RedOn
+            marginoff
+            redon
             href="https://youtube.com/clip/UgkxdEusv9BK_15lGCms9EEy7dPkWvhC13P3?si=j9xfxzRInh79C4_2"
           >
             aula do Professor Ferreto
-          </Anchor>
+          </InlineAnchor>
           .
         </Paragraph>
 
         <Topic>Propriedades</Topic>
         <List index={1}>Elemento nêutro</List>
-        <Paragraph>
-          Qualquer número onde for subtraído zero continuna sendo o mesmo
-          número.
-        </Paragraph>
+        <Paragraph>Subtrair por zero não altera o resultado.</Paragraph>
         <MathBlock math="a - 0 = a\quad |\quad 3 - 0 = 3" />
 
         <List index={2}>Não Comutatividade</List>
@@ -140,7 +135,7 @@ export default function AdicaoESubtracao() {
         <List index={3}>Associação de subtração</List>
         <Paragraph>
           A subtração não é associativa. Em outras palavras,{" "}
-          <MathInline math="(a-b)-c" /> não é necessariamente igual à{" "}
+          <MathInline math="(a-b)-c" /> não é igual à{" "}
           <MathInline math="a-(b-c)" />.{" "}
           <Underline>A ordem dos parênteses afeta o resultado</Underline>.
         </Paragraph>

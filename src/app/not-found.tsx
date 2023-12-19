@@ -1,11 +1,11 @@
 "use client";
 
-import Anchor from "@/components/Anchor/Anchor";
+import Anchor from "@/components/Text/Anchor/InlineAnchor/InlineAnchor";
 import Main from "@/components/Main/Main";
-import Paragraph from "@/components/Paragraph/Paragraph";
+import Paragraph from "@/components/Text/Paragraph/Paragraph";
 import Sidebar from "@/components/Sidebar/Sidebar";
-import Title from "@/components/Title/Title";
-import Topic from "@/components/Topic/Topic";
+import Title from "@/components/Text/Title/Title";
+import Topic from "@/components/Text/Topic/Topic";
 import { Wrapper } from "@/components/Wrapper/Wrapper";
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
           <Topic>Opss...</Topic>
           <Paragraph>
             Infelizmente parece que você acessou uma página que não existe.{" "}
-            <Anchor MarginOff RedOn href="/">
+            <Anchor marginoff={true} redon={true} href="/">
               Clique aqui para retornar ao início
             </Anchor>
           </Paragraph>

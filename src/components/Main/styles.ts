@@ -39,6 +39,6 @@ export const Container = styled.div`
   justify-content: space-around;
 
   @media screen and (max-width: 550px) {
-    margin-left: 30px;
+    margin-left: 5px;
   }
 `;

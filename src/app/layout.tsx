@@ -2,7 +2,7 @@ import "@/app/globals.css";
 
 export const metadata = {
   title: "DO MATH",
-  description: "Conheça a matemática de pertinho!",
+  description: "Aprenda matemática",
 };
 
 export default function RootLayout({

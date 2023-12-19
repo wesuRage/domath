@@ -1,12 +1,11 @@
 import { Index, LI } from "./styles";
 
-export default function List({
-  children,
-  index,
-}: {
+interface ListProps {
   children: React.ReactNode;
   index: number;
-}) {
+}
+
+export default function List({ children, index }: ListProps) {
   return (
     <LI>
       <Index>{index}</Index> {children}

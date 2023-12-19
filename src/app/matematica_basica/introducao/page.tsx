@@ -1,11 +1,11 @@
 "use client";
 
 import Main from "@/components/Main/Main";
-import Paragraph from "@/components/Paragraph/Paragraph";
+import Paragraph from "@/components/Text/Paragraph/Paragraph";
 import Sidebar from "@/components/Sidebar/Sidebar";
-import Title from "@/components/Title/Title";
-import Topic from "@/components/Topic/Topic";
-import Underline from "@/components/Underline/Underline";
+import Title from "@/components/Text/Title/Title";
+import Topic from "@/components/Text/Topic/Topic";
+import Underline from "@/components/Text/Underline/Underline";
 import { Wrapper } from "@/components/Wrapper/Wrapper";
 
 export default function Introducao() {

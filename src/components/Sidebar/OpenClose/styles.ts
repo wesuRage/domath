@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const Button = styled.button`
   font-size: 20px;
   width: 30px;
-  color: var(--red);
-  background-color: black;
+  color: var(--main-color);
+  background-color: var(--bg-color);
 
-  border-left: solid 1px var(--red);
-  border-right: solid 1px var(--red);
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
+  border-left: solid 1px var(--main-color);
+  border-right: solid 1px var(--main-color);
+  border-top: solid 1px var(--bg-color);
+  border-bottom: solid 1px var(--bg-color);
 
   transition: 0.2s;
 
@@ -17,7 +17,10 @@ export const Button = styled.button`
   height: 100svh;
 
   &:hover {
-    color: black;
-    background-color: var(--red);
+    color: var(--bg-color);
+    background-color: var(--main-color);
+
+    border-top: solid 1px var(--main-color);
+    border-bottom: solid 1px var(--main-color);
   }
 `;

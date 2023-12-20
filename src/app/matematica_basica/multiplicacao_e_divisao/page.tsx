@@ -226,6 +226,36 @@ export default function MultiplicacaoEDivisao() {
           do minuto <Underline>29:46</Underline> até{" "}
           <Underline>35:13</Underline>.
         </Paragraph>
+
+        <Topic>Propriedades</Topic>
+        <List index={1}>Elemento nêutro</List>
+        <Paragraph>
+          Dividir por <MathInline math="1" /> não altera o resultado.
+        </Paragraph>
+        <MathBlock math="a ÷ 1 = a\quad |\quad 20 ÷ 1 = 20" />
+
+        <List index={2}>Quociente de um número por ele mesmo</List>
+        <Paragraph>
+          Dividir um número por ele mesmo sempre resulta em{" "}
+          <MathInline math="1" />.
+        </Paragraph>
+        <MathBlock math="a ÷ a = 1" />
+
+        <List index={3}>Não comutatividade</List>
+        <Paragraph>A ordem da operação altera o resultado.</Paragraph>
+        <MathBlock math="10 ÷ 2 ≠ 2 ÷ 10" />
+
+        <List index={4}>Zero como divisor</List>
+        <Paragraph>
+          Qualquer número divido por zero é <Underline>indefinido</Underline>,
+          ou seja <Underline>não existe</Underline> (
+          <MathInline math="∄" />) um quociente exato.
+        </Paragraph>
+        <MathBlock math="a ÷ 0 = ∄" />
+
+        <br />
+        <br />
+        <br />
       </Main>
     </Wrapper>
   );

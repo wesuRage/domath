@@ -11,7 +11,9 @@ export const Container = styled.div`
 
   margin: 0;
 
-  background-color: black;
+  color: white;
+
+  background-color: var(--bg-color);
 
   @media screen and (max-width: 550px) {
     width: calc(100vw - 30px);

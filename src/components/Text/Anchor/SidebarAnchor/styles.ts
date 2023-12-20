@@ -3,20 +3,15 @@ import styled from "styled-components";
 
 export const Anc = styled(Link)`
   margin-left: 40px;
-  color: "white";
   text-decoration: none;
 
   display: inline-block;
 
   &:visited {
-    color: white;
+    color: var(--text-color);
   }
 
   &:hover {
-    color: var(--red);
-  }
-
-  &:focus {
-    color: var(--red);
+    color: var(--main-color);
   }
 `;

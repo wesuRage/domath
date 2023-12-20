@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@100&family=Rethink+Sans&display=swap");
 
 :root {
-  --red: rgb(235, 45, 45);
-  /* --red: rgb(45, 124, 235); */
+  --main-color: rgb(235, 45, 45);
+  --bg-color: black;
+  --text-color: white;
 
   ::-moz-selection {
-    color: black;
+    color: var(--bg-color);
     background: var(--red);
   }
 
   ::selection {
-    color: black;
-    background: var(--red);
+    color: var(--bg-color);
+    background: var(--main-color);
   }
 }
 
@@ -21,7 +22,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: black;
+  background: var(--bg-color);
   padding: 10px;
 }
 

@@ -128,7 +128,7 @@ export default function AdicaoESubtracao() {
         <Paragraph>Subtrair por zero não altera o resultado.</Paragraph>
         <MathBlock math="a - 0 = a\quad |\quad 3 - 0 = 3" />
 
-        <List index={2}>Não Comutatividade</List>
+        <List index={2}>Não comutatividade</List>
         <Paragraph>A ordem da operação altera o resultado.</Paragraph>
         <MathBlock math="2 - 3 ≠ 3 - 2" />
 
@@ -141,6 +141,8 @@ export default function AdicaoESubtracao() {
         </Paragraph>
         <MathBlock math="(3 - 4) - 2 ≠ 3 - (4 - 2)" />
 
+        <br />
+        <br />
         <br />
       </Main>
     </Wrapper>

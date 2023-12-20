@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const Topheader = styled.header`
   width: 300px;
   max-height: 66px;
-  background-color: black;
-  color: white;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 
   -ms-user-select: none;
   -webkit-user-select: none;
   user-select: none;
 
-  border-bottom: solid 1px var(--red);
+  border-bottom: solid 1px var(--main-color);
 
   p {
     display: inline-block;

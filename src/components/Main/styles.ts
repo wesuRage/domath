@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Body = styled.div`
-  background-color: black;
-  color: white;
-  border: solid 1px var(--red);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: solid 1px var(--main-color);
 
   overflow-y: scroll;
 

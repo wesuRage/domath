@@ -9,7 +9,7 @@ export const Container = styled.div`
 
   max-width: 100%;
   overflow-x: scroll;
-  border: solid 1px var(--red);
+  border: solid 1px var(--main-color);
 
   img {
     -webkit-user-select: none;

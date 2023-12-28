@@ -49,7 +49,7 @@ export default function AdicaoESubtracao() {
 
         <Paragraph>
           Quando tratamos de números decimais (números com vígula. ex:{" "}
-          <MathInline math="3,14" />
+          <MathInline math="3.14" />
           ), para armarmos a conta, colocamos virgula embaixo de virgula{" "}
           <Underline>tanto em adição quando em subtração</Underline>. Para um
           melhor exemplo, clique e assista um clipe da{" "}
@@ -98,11 +98,12 @@ export default function AdicaoESubtracao() {
         <Paragraph>
           Assim que armarmos a conta, precisamos levar em consideração se o
           número que está em cima é <Underline>maior ou menor</Underline> do que
-          o número que está embaixo. Por exemplo, <MathInline math="5 - 3" /> é
-          diferente de <MathInline math="3 - 5" />, pois se eu tenho{" "}
-          <MathInline math="5" /> e tiro <MathInline math="3" /> eu fico com{" "}
-          <MathInline math="2" />. Já se eu tenho <MathInline math="3" /> e tiro{" "}
-          <MathInline math="5" />, vou chegar a um resultado negativo (
+          o número que está embaixo. Por exemplo, <MathInline math="5 - 3" />{" "}
+          <Underline>é diferente</Underline> de <MathInline math="3 - 5" />,
+          pois se eu tenho <MathInline math="5" /> e tiro{" "}
+          <MathInline math="3" /> eu fico com <MathInline math="2" />. Já se eu
+          tenho <MathInline math="3" /> e tiro <MathInline math="5" />, vou
+          chegar a um resultado negativo (
           <MathInline math="-2" />
           ). Por esta razão, não podemos realizar o cálculo de uma conta armada
           de qualquer forma, é sempre o{" "}

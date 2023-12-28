@@ -5,6 +5,8 @@ export const Anc = styled(Link)`
   margin-left: 40px;
   text-decoration: none;
 
+  color: var(--text-color);
+
   display: inline-block;
 
   &:visited {

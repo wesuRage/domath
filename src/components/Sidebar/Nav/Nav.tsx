@@ -13,11 +13,15 @@ export default function Nav() {
       </SidebarAnchor>
 
       <Topic>Operações básicas</Topic>
+
       <SidebarAnchor href="/matematica_basica/adicao_e_subtracao">
         Adição e subtração
       </SidebarAnchor>
       <SidebarAnchor href="/matematica_basica/multiplicacao_e_divisao">
         Multiplicação e divisão
+      </SidebarAnchor>
+      <SidebarAnchor href="/matematica_basica/expressoes_numericas">
+        Expressões numéricas
       </SidebarAnchor>
     </Container>
   );

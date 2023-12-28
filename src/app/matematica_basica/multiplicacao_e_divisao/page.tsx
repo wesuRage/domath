@@ -96,14 +96,11 @@ export default function MultiplicacaoEDivisao() {
         <br />
         <Paragraph>
           <MathInline math="3\cdot5 = 15" />
-        </Paragraph>
-        <Paragraph>
+          <br />
           <MathInline math="3\cdot(-5) = -15" />
-        </Paragraph>
-        <Paragraph>
+          <br />
           <MathInline math="(-3)\cdot5 = -15" />
-        </Paragraph>
-        <Paragraph>
+          <br />
           <MathInline math="(-3)\cdot(-5) = 15" />
         </Paragraph>
 

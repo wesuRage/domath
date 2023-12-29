@@ -41,6 +41,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  text-align: justify;
+  text-justify: inter-word;
+  word-spacing: -2px;
 }
 
 body {

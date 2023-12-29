@@ -5,8 +5,9 @@ export const Anc = styled(Link)`
   margin-left: 0;
   color: var(--main-color);
   text-decoration: none;
+  text-align: justify;
 
-  display: inline-block;
+  display: inline;
 
   &:visited {
     color: var(--main-color);

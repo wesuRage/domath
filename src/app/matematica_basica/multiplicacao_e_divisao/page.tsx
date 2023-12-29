@@ -6,7 +6,6 @@ import Paragraph from "@/components/Text/Paragraph/Paragraph";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import Title from "@/components/Text/Title/Title";
 import Topic from "@/components/Text/Topic/Topic";
-import Underline from "@/components/Text/Underline/Underline";
 import { Wrapper } from "@/components/Wrapper/Wrapper";
 import InlineAnchor from "@/components/Text/Anchor/InlineAnchor/InlineAnchor";
 import List from "@/components/Text/List/List";
@@ -21,37 +20,30 @@ export default function MultiplicacaoEDivisao() {
         <Title>Multiplicação</Title>
         <Paragraph>
           A multiplicação é uma operação matemática fundamental que combina dois
-          números, chamados de <Underline>multiplicando</Underline> e{" "}
-          <Underline>multiplicador</Underline>, para produzir um resultado
-          chamado <Underline>produto</Underline>. A notação matemática para a
-          multiplicação pode ser <MathInline math="3×5" />,{" "}
-          <MathInline math="3\cdot5" />, <MathInline math="3(5)" /> ou{" "}
-          <MathInline math="(3)(5)" /> e a operação é lida como "
-          <Underline>vezes</Underline>" ou "
-          <Underline>multiplicado por</Underline>".
+          números, chamados de multiplicando e multiplicador, para produzir um
+          resultado chamado produto. A notação matemática para a multiplicação
+          pode ser <MathInline math="3×5" />, <MathInline math="3\cdot5" />,{" "}
+          <MathInline math="3(5)" /> ou <MathInline math="(3)(5)" /> e a
+          operação é lida como " vezes" ou " multiplicado por".
         </Paragraph>
         <br />
 
         <Paragraph>
-          Multiplicação na sua essência é baseada na{" "}
-          <Underline>soma repetida</Underline> de um mesmo número. Exemplo:{" "}
-          <MathInline math="4" /> vezes <MathInline math="2" /> significa o
-          número <MathInline math="2" /> somado com ele mesmo{" "}
+          Multiplicação na sua essência é baseada na soma repetida de um mesmo
+          número. Exemplo: <MathInline math="4" /> vezes <MathInline math="2" />{" "}
+          significa o número <MathInline math="2" /> somado com ele mesmo{" "}
           <MathInline math="4" /> vezes (<MathInline math="2+2+2+2=8" />
           ). Assim como <MathInline math="2" /> vezes <MathInline math="4" /> é
           o número <MathInline math="4" /> somado com ele mesmo{" "}
           <MathInline math="2" /> vezes (<MathInline math="4+4=8" />
-          ). Nós somamos <Underline>quatro vezes o dois</Underline> e somamos{" "}
-          <Underline>duas vezes o quatro</Underline>.
+          ). Nós somamos quatro vezes o dois e somamos duas vezes o quatro.
         </Paragraph>
 
         <br />
         <Paragraph>
           Para realizar uma multiplicação com conta armada, precisa-se{" "}
-          <Underline>multiplicar cada algarísmo</Underline> de cima pelo mesmo
-          algarismo de baixo. No final,{" "}
-          <Underline>somar os resultados</Underline>. Para um melhor exemplo,
-          clique e assista a{" "}
+          multiplicar cada algarísmo de cima pelo mesmo algarismo de baixo. No
+          final, somar os resultados. Para um melhor exemplo, clique e assista a{" "}
           <InlineAnchor
             newTab
             marginoff
@@ -60,21 +52,17 @@ export default function MultiplicacaoEDivisao() {
           >
             aula do Professor Ferreto
           </InlineAnchor>{" "}
-          do minuto <Underline>3:33</Underline> até <Underline>5:37</Underline>.
+          do minuto 3:33 até 5:37.
         </Paragraph>
         <br />
         <Paragraph>
-          Quando se há multiplicação decimal (<Underline>com vírgula</Underline>
-          ), primeiro{" "}
-          <Underline>
-            esquecemos as virgulas e multiplicamos normalmente
-          </Underline>
-          . Depois que multiplicarmos, contamos quantas casas decimais há no
-          total dos números multiplicados. Se forem <MathInline math="2" />,
-          colocamos a vírgula <Underline>depois do segundo número</Underline>{" "}
-          (da direita pra esquerda). Se forem <MathInline math="3" />, colocamos
-          a vírgula <Underline>depois do terceiro número</Underline>, e assim
-          por diante. Para um melhor exemplo, clique e assista a{" "}
+          Quando se há multiplicação decimal (com vírgula ), primeiro esquecemos
+          as virgulas e multiplicamos normalmente . Depois que multiplicarmos,
+          contamos quantas casas decimais há no total dos números multiplicados.
+          Se forem <MathInline math="2" />, colocamos a vírgula depois do
+          segundo número (da direita pra esquerda). Se forem{" "}
+          <MathInline math="3" />, colocamos a vírgula depois do terceiro
+          número, e assim por diante. Para um melhor exemplo, clique e assista a{" "}
           <InlineAnchor
             newTab
             marginoff
@@ -83,15 +71,13 @@ export default function MultiplicacaoEDivisao() {
           >
             aula do Professor Ferreto
           </InlineAnchor>{" "}
-          do minuto <Underline>6:01</Underline> até <Underline>9:42</Underline>.
+          do minuto 6:01 até 9:42.
         </Paragraph>
 
         <Topic>Regra de sinais</Topic>
         <Paragraph>
-          O produto entre <Underline>dois números de sinais iguais</Underline> é{" "}
-          <Underline>positivo</Underline> e o produto entre{" "}
-          <Underline>dois números de sinais contrários</Underline> é{" "}
-          <Underline>negativo</Underline>:
+          O produto entre dois números de sinais iguais é positivo e o produto
+          entre dois números de sinais contrários é negativo:
         </Paragraph>
         <br />
         <Paragraph>
@@ -142,9 +128,8 @@ export default function MultiplicacaoEDivisao() {
         <Title>Divisão</Title>
         <Paragraph>
           A divisão procura distribuir de forma igual uma quantidade numérica,
-          sendo formada por quatro partes: o <Underline>dividendo</Underline>, o{" "}
-          <Underline>divisor</Underline>, o <Underline>quociente</Underline> e o{" "}
-          <Underline>resto</Underline>.
+          sendo formada por quatro partes: o dividendo, o divisor, o quociente e
+          o resto.
         </Paragraph>
 
         <Images
@@ -160,10 +145,10 @@ export default function MultiplicacaoEDivisao() {
           A representação matemática da divisão pode ser como na imagem acima,
           ou como <MathInline math="37÷15" />, <MathInline math="37/15" />,{" "}
           <MathInline math="\frac{37}{15}" /> ou <MathInline math="37 : 15" />.
-          Para efetuar uma divisão precisamos calcular{" "}
-          <Underline>quantas vezes o divisor cabe no dividendo</Underline>. Por
-          exemplo: <MathInline math="9÷3" /> quer saber quantas vezes o{" "}
-          <MathInline math="3" /> cabe dentro de <MathInline math="9" />.
+          Para efetuar uma divisão precisamos calcular quantas vezes o divisor
+          cabe no dividendo. Por exemplo: <MathInline math="9÷3" /> quer saber
+          quantas vezes o <MathInline math="3" /> cabe dentro de{" "}
+          <MathInline math="9" />.
         </Paragraph>
 
         <Images
@@ -190,16 +175,13 @@ export default function MultiplicacaoEDivisao() {
           >
             aula do Professor Ferreto
           </InlineAnchor>{" "}
-          do minuto <Underline>14:00</Underline> até{" "}
-          <Underline>29:27</Underline>.
+          do minuto 14:00 até 29:27.
         </Paragraph>
 
         <Topic>Regra de sinais</Topic>
         <Paragraph>
-          O quociente entre <Underline>dois números de sinais iguais</Underline>{" "}
-          é <Underline>positivo</Underline> e o quociente entre{" "}
-          <Underline>dois números de sinais contrários</Underline> é{" "}
-          <Underline>negativo</Underline>:
+          O quociente entre dois números de sinais iguais é positivo e o
+          quociente entre dois números de sinais contrários é negativo:
         </Paragraph>
 
         <MathInline math="" />
@@ -207,11 +189,11 @@ export default function MultiplicacaoEDivisao() {
         <br />
         <Paragraph>
           Agora para efetuar divisões com casas decimais, primeiro se precisa{" "}
-          <Underline>igualar as casas decimais</Underline>. Exemplo:{" "}
-          <MathInline math="7,2÷3" /> vira <MathInline math="7,2÷3,0" />. E
-          então, o que se precisa fazer é ignorar as a vígula, tornando-se{" "}
-          <MathInline math="72÷30" />. A partir daí é só resolver a divisão
-          normalmente. Para um melhor exemplo, clique e assista a{" "}
+          igualar as casas decimais. Exemplo: <MathInline math="7,2÷3" /> vira{" "}
+          <MathInline math="7,2÷3,0" />. E então, o que se precisa fazer é
+          ignorar as a vígula, tornando-se <MathInline math="72÷30" />. A partir
+          daí é só resolver a divisão normalmente. Para um melhor exemplo,
+          clique e assista a{" "}
           <InlineAnchor
             newTab
             marginoff
@@ -220,8 +202,7 @@ export default function MultiplicacaoEDivisao() {
           >
             aula do Professor Ferreto
           </InlineAnchor>{" "}
-          do minuto <Underline>29:46</Underline> até{" "}
-          <Underline>35:13</Underline>.
+          do minuto 29:46 até 35:13.
         </Paragraph>
 
         <Topic>Propriedades</Topic>
@@ -244,8 +225,7 @@ export default function MultiplicacaoEDivisao() {
 
         <List index={4}>Zero como divisor</List>
         <Paragraph>
-          Qualquer número divido por zero é <Underline>indefinido</Underline>,
-          ou seja <Underline>não existe</Underline> (
+          Qualquer número divido por zero é indefinido, ou seja não existe (
           <MathInline math="∄" />) um quociente exato.
         </Paragraph>
         <MathBlock math="a ÷ 0 = ∄" />

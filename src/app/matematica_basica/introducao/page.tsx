@@ -5,7 +5,6 @@ import Paragraph from "@/components/Text/Paragraph/Paragraph";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import Title from "@/components/Text/Title/Title";
 import Topic from "@/components/Text/Topic/Topic";
-import Underline from "@/components/Text/Underline/Underline";
 import { Wrapper } from "@/components/Wrapper/Wrapper";
 
 export default function Introducao() {
@@ -21,20 +20,16 @@ export default function Introducao() {
 
           <Paragraph>
             Este site é dedicado à pessoas que querem se aprofundar em
-            matemática, então terão conteúdos do mais{" "}
-            <Underline>básico</Underline> até o mais{" "}
-            <Underline>avançado</Underline>.
+            matemática, então terão conteúdos do mais básico até o mais{" "}
+            avançado.
           </Paragraph>
           <br />
           <Paragraph>
-            Para iniciar os seus estudos, é importante que além de{" "}
-            <Underline>focar no conteúdo</Underline>, procure vários{" "}
-            <Underline>exercícios</Underline> para fortalecer seu aprendizado.
+            Para iniciar os seus estudos, é importante que além de focar no
+            conteúdo, procure vários exercícios para fortalecer seu aprendizado.
           </Paragraph>
           <br />
-          <Paragraph>
-            Bons estudos e <Underline>divirta-se</Underline>!
-          </Paragraph>
+          <Paragraph>Bons estudos e divirta-se!</Paragraph>
         </Main>
       </Wrapper>
     </>

@@ -9,7 +9,6 @@ import List from "@/components/Text/List/List";
 import Paragraph from "@/components/Text/Paragraph/Paragraph";
 import Title from "@/components/Text/Title/Title";
 import Topic from "@/components/Text/Topic/Topic";
-import Underline from "@/components/Text/Underline/Underline";
 import { Wrapper } from "@/components/Wrapper/Wrapper";
 
 export default function ExpressoesNumericas() {
@@ -20,19 +19,18 @@ export default function ExpressoesNumericas() {
       <Main>
         <Title>Expressões numéricas</Title>
         <Paragraph>
-          Expressões numéricas são combinações matemáticas de{" "}
-          <Underline>números e operadores</Underline>. Essas expressões são
-          frequentemente usadas para descrever relações e operações em
-          matemática. As expressões numéricas podem envolver uma variedade de
-          elementos, como adição, subtração, multiplicação, divisão, expoentes,
-          parênteses e outros símbolos matemáticos.
+          Expressões numéricas são combinações matemáticas de números e
+          operadores. Essas expressões são frequentemente usadas para descrever
+          relações e operações em matemática. As expressões numéricas podem
+          envolver uma variedade de elementos, como adição, subtração,
+          multiplicação, divisão, expoentes, parênteses e outros símbolos
+          matemáticos.
         </Paragraph>
 
         <br />
 
         <Paragraph>
-          Essas expressões têm uma ordem de resolução que{" "}
-          <Underline>precisa ser respeitada</Underline>
+          Essas expressões têm uma ordem de resolução que precisa ser respeitada
           para que o cálculo seja efetuado corretamente.
         </Paragraph>
 
@@ -51,17 +49,33 @@ export default function ExpressoesNumericas() {
 
         <Topic>Exemplos</Topic>
         <Paragraph>
-          Vamos começar simples e ir aumentando o grau da complexidade.{" "}
-          <Underline>CUIDADO</Underline>, não esqueça de prestar atenção na
-          regra de sinais. Caso haja alguma duvida, veja a{" "}
+          Vamos começar simples e ir aumentando o grau da complexidade. CUIDADO,
+          não esqueça de prestar atenção na regra de sinais. Caso haja alguma
+          duvida, veja a{" "}
           <InlineAnchor href="https://www.youtube.com/watch?v=RrjtgevcYjw">
             aula do Professor Sandro Curió
           </InlineAnchor>
-          .
+          . Além disso, se tivermos uma expressão com ordem de precedência
+          igual, como a de soma e subtração: <MathInline math="9-5+2" />,
+          precisamos começar da esquerda para a direita, senão o resultado vai
+          mudar.
         </Paragraph>
         <br />
 
         <Paragraph>Exemplo 1:</Paragraph>
+        <br />
+        <Paragraph>
+          <MathInline math="9-5+2" />
+          <br />
+          <br />
+          <MathInline math="\underline{9-5}+2" />
+          <br />
+          <MathInline math="\underline{4+2}" />
+          <br />
+          <MathInline math="6" />
+        </Paragraph>
+
+        <Paragraph>Exemplo 2:</Paragraph>
         <br />
         <Paragraph>
           <MathInline math="1 + 2 * 4" />
@@ -75,7 +89,7 @@ export default function ExpressoesNumericas() {
         </Paragraph>
         <br />
 
-        <Paragraph>Exemplo 2</Paragraph>
+        <Paragraph>Exemplo 3:</Paragraph>
         <br />
         <Paragraph>
           <MathInline math="3 * (4 - 8 ÷ 4)" />
@@ -91,7 +105,7 @@ export default function ExpressoesNumericas() {
         </Paragraph>
         <br />
 
-        <Paragraph>Exemplo 3</Paragraph>
+        <Paragraph>Exemplo 4:</Paragraph>
         <br />
         <Paragraph>
           <MathInline math="5 + [(5 + 7) ÷ (9-6)] - 3" />
@@ -107,7 +121,7 @@ export default function ExpressoesNumericas() {
         </Paragraph>
         <br />
 
-        <Paragraph>Exemplo 4</Paragraph>
+        <Paragraph>Exemplo 5:</Paragraph>
         <br />
         <Paragraph>
           <MathInline math="60 + { 4 + [ (8 - 12 ) - ( 5 + 3 ) - 7 ] + 2}" />

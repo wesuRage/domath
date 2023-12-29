@@ -23,6 +23,7 @@ export default function Nav() {
       <SidebarAnchor href="/matematica_basica/expressoes_numericas">
         Expressões numéricas
       </SidebarAnchor>
+      <SidebarAnchor href="/matematica_basica/fracoes">Frações</SidebarAnchor>
     </Container>
   );
 }

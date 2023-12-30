@@ -225,7 +225,7 @@ export default function MultiplicacaoEDivisao() {
 
         <List index={4}>Zero como divisor</List>
         <Paragraph>
-          Qualquer número divido por zero é indefinido, ou seja não existe (
+          Qualquer número divido por zero é indefinido, ou seja, não existe (
           <MathInline math="∄" />) um quociente exato.
         </Paragraph>
         <MathBlock math="a ÷ 0 = ∄" />

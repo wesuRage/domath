@@ -124,12 +124,12 @@ export default function ExpressoesNumericas() {
         <Paragraph>Exemplo 5:</Paragraph>
         <br />
         <Paragraph>
-          <MathInline math="60 + { 4 + [ (8 - 12 ) - ( 5 + 3 ) - 7 ] + 2}" />
+          <MathInline math="60 + \{ 4 + [ (8 - 12 ) - ( 5 + 3 ) - 7 ] + 2\}" />
           <br />
           <br />
-          <MathInline math="60 + { 4 + [ (\underline{8 - 12} ) - ( \underline{5 + 3} ) - 7 ] + 2}" />
+          <MathInline math="60 + \{ 4 + [ (\underline{8 - 12} ) - ( \underline{5 + 3} ) - 7 ] + 2\}" />
           <br />
-          <MathInline math="60 + { 4 + [ \underline{-4 - 8 - 7} ] + 2}" />
+          <MathInline math="60 + \{ 4 + [ \underline{-4 - 8 - 7} ] + 2\}" />
           <br />
           <MathInline math="60 + \{\underline{4 - 19 + 2}\}" />
           <br />
@@ -146,6 +146,10 @@ export default function ExpressoesNumericas() {
           </InlineAnchor>
           .
         </Paragraph>
+
+        <br />
+        <br />
+        <br />
       </Main>
     </Wrapper>
   );

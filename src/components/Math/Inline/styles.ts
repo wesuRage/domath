@@ -5,7 +5,7 @@ export const Container = styled.span`
 
   @media screen and (max-width: 550px) {
     img {
-      max-height: 8px;
+      max-height: 10px;
     }
   }
 `;
